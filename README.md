@@ -99,6 +99,8 @@ integration communicates via WebSocket with this server.
 
 All add-ons in this repository are released under the [MIT License](./LICENSE).
 
+Some files in this project (located in `hassio-ihost-silabs-multiprotocol`) are based on code licensed under the Apache License 2.0. See the LICENSE file for more information.
+
 ---
 
 ## Maintainers

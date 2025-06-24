@@ -21,7 +21,7 @@ host_uts: true
 privileged:
   - IPC_LOCK
   - NET_ADMIN
-image: ghcr.io/mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol-{arch}
+image: ghcr.io/mrz-creator/hassio-ihost-silabs-multiprotocol-{arch}
 init: false
 options:
   device: null

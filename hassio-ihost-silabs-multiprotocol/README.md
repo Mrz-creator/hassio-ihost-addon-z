@@ -1,7 +1,7 @@
-# HASSIO-IHOST-ADDON : SiliconLabs Zigbee/OpenThread Multiprotocol Add-on
+# Home Assistant Add-on: SiliconLabs Zigbee/OpenThread Multiprotocol Add-on
 
-Zigbee/OpenThread Multiprotocol container for Silicon Labs based radios such as
-Home Assistant Yellow, Home Assistant SkyConnect, and Home Assistant Connect ZBT-1.
+Zigbee/OpenThread Multiprotocol container for Silicon Labs based radios 
+such as SONOFF ZBDongle-E.
 
 ![Supports armv7 Architecture][armv7-shield]
 ![Supports aarch64 Architecture][aarch64-shield]
@@ -9,10 +9,11 @@ Home Assistant Yellow, Home Assistant SkyConnect, and Home Assistant Connect ZBT
 
 ## About
 
-This add-on allows you to use Zigbee and OpenThread protocol simultaneous on a
-single Silicon Labs based radio. The radio needs the RCP Multi-PAN firmware
-installed to support multiple IEEE 802.15.4 Personal Area Networks (PAN). The
-addon has been tested with EFR32 Series 2 based radios.
+This add-on allows you to use Zigbee and OpenThread protocol simultaneous on a 
+single Silicon Labs based radio. The radio needs the RCP Multi-PAN firmware 
+installed to support multiple IEEE 802.15.4 Personal Area Networks (PAN). The 
+addon is modified based on the Silicon Labs Multiprotocol Addon and has been 
+successfully tested on the SONOFF ZBDongle-E.
 
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
@@ -23,8 +24,8 @@ addon has been tested with EFR32 Series 2 based radios.
 This project includes modified portions of code originally from a project licensed under 
 the Apache License, Version 2.0:
 
-- Files located in `hassio-ihost-silabs-multiprotocol` were derived from 
+- `Silicon Labs Multiprotocol(Modified)` were derived from 
     the Silicon Labs Multiprotocol Add-on (https://github.com/home-assistant/addons/tree/master/silabs-multiprotocol).
-- These files have been modified to support Simplicity SDK 2024.12.01 and include other integration changes.
+- `Silicon Labs Multiprotocol(Modified)` have been modified to support Simplicity SDK 2024.12.01 and include other integration changes.
 
 Use of the code in that folder is subject to the terms of the Apache License 2.0.

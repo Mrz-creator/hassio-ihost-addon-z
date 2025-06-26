@@ -40,11 +40,13 @@ To use Zigbee with Z2M configure the Integration as follows:
 1. Remember/copy the hostname of the add-on (e.g. c617dadc-hassio-ihost-silabs-multiprotocol).
 2. Open the Zigbee2MQTT add-on → Configuration page.
 3. Configure the device's serial port path, baudrate, adapter type under serial.
+
 ```yaml
    adapter: ember
    port: tcp://c617dadc-hassio-ihost-silabs-multiprotocol:9999
    baudrate: 115200
 ```
+
 4. Click "SAVE" button.
 5. After completing the configuration, start the Zigbee2MQTT add-on. Wait for about two minutes, 
    then you can click to enter the Web UI Console to add and manage devices.

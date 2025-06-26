@@ -47,9 +47,8 @@ To use Zigbee with Z2M configure the Integration as follows:
    baudrate: 115200
 ```
 
-4. Click "SAVE" button.
-5. After completing the configuration, start the Zigbee2MQTT add-on. Wait for about two minutes, 
-   then you can click to enter the Web UI Console to add and manage devices.
+After completing the configuration,click "SAVE" button. start the Zigbee2MQTT add-on. 
+Wait for about two minutes, then you can click to enter the Web UI Console to add and manage devices.
 
 ### OpenThread
 

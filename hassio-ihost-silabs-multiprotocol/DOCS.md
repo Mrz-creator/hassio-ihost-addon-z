@@ -19,7 +19,7 @@ Follow these steps to get the add-on installed on your system:
 
       [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
       
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/blob/master/hassio-ihost-silabs-multiprotocol/images/description-picture_1.png)
+      ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_1.png)
 
 2. Install Silicon Labs Multiprotocol(Mod) Add-on
       - Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
@@ -27,7 +27,7 @@ Follow these steps to get the add-on installed on your system:
       - Wait for the installation to complete
 Note: Missing add-on? Enable advanced mode in your user profile page
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/blob/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
+![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
 
 ## How to use
 
@@ -41,7 +41,7 @@ Once the firmware is loaded follow the following steps:
 
 **NOTE:** the Web frontend is only accessible when OpenThread is enabled (see below).
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/blob/master/hassio-ihost-silabs-multiprotocol/images/description-picture_3.png)
+![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_3.png)
 
 ### Zigbee
 
@@ -66,7 +66,7 @@ To use Zigbee with Z2M configure the Integration as follows:
 
 Wait for about two minutes, then you can click to enter the Web UI Console to add and manage devices.
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/blob/master/hassio-ihost-silabs-multiprotocol/images/description-picture_4.png)
+![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_4.png)
 
 ### OpenThread
 
@@ -109,7 +109,7 @@ Add-on configuration:
 The add-on runs several service internally. This architecture diagram shows what
 the add-on currently implements.
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/blob/master/hassio-ihost-silabs-multiprotocol/images/architecture.png)
+![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/architecture.png)
 
 ## Support
 

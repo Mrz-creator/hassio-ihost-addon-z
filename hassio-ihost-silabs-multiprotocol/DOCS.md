@@ -25,7 +25,7 @@ Follow these steps to get the add-on installed on your system:
       - Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
       - Click "Install" button.  
       - Wait for the installation to complete
-      
+
       Note: Missing add-on? Enable advanced mode in your user profile page
 
       ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
@@ -62,10 +62,9 @@ To use Zigbee with Z2M configure the Integration as follows:
 
       ```
 
-4. After completing the configuration,click "SAVE" button. 
-5. start the Zigbee2MQTT add-on. 
-
-Wait for about two minutes, then you can click to enter the Web UI Console to add and manage devices.
+4. click "SAVE" button. 
+5. After completing the configuration,start the Zigbee2MQTT add-on. Wait for about two minutes,
+ then you can click to enter the Web UI Console to add and manage devices.
 
 ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_4.png)
 

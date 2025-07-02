@@ -13,20 +13,22 @@ via [SONOFF Dongle Flasher Add-on][dongle-flasher-addon].
 Follow these steps to get the add-on installed on your system:
 
 1. Add eWeLink-Remote Gateway Add-on to Repositories
-      Go to the Add-on Store → Click the More button (⋮) in the upper-right corner → Select Repositories
-      Paste the following URL:
-         https://github.com/iHost-Open-Source-Project/hassio-ihost-addon
-2. Or, simply click the button below to add it automatically:
+      - Go to the Add-on Store → Click the More button (⋮) in the upper-right corner → Select Repositories
+        Paste the following URL:https://github.com/iHost-Open-Source-Project/hassio-ihost-addon
+      - Or, simply click the button below to add it automatically:
 
       [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
       
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_1.png)
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol/images/description-picture_1.png)
+
 2. Install Silicon Labs Multiprotocol(Mod) Add-on
-      Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
-      Click "Install" button.  
-      Wait for the installation to complete
+      - Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
+      - Click "Install" button.  
+      - Wait for the installation to complete
 Note: Missing add-on? Enable advanced mode in your user profile page
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_2.png)
+
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
+
 ## How to use
 
 The add-on needs a Silicon Labs based wireless module accessible through a 
@@ -38,7 +40,8 @@ Once the firmware is loaded follow the following steps:
 2. Start the add-on.
 
 **NOTE:** the Web frontend is only accessible when OpenThread is enabled (see below).
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_3.png)
+
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol/images/description-picture_3.png)
 
 ### Zigbee
 
@@ -57,10 +60,12 @@ To use Zigbee with Z2M configure the Integration as follows:
    baudrate: 115200
 ```
 
-After completing the configuration,click "SAVE" button. start the Zigbee2MQTT add-on. 
+
+4. After completing the configuration,click "SAVE" button. 
+5. start the Zigbee2MQTT add-on. 
 Wait for about two minutes, then you can click to enter the Web UI Console to add and manage devices.
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_4.png)
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol/images/description-picture_4.png)
 
 ### OpenThread
 
@@ -103,7 +108,7 @@ Add-on configuration:
 The add-on runs several service internally. This architecture diagram shows what
 the add-on currently implements.
 
-![Silicon Labs Multiprotocol Add-on Architecture](https://raw.githubusercontent.com/home-assistant/addons/master/silabs-multiprotocol/images/architecture.png)
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/hassio-ihost-silabs-multiprotocol/images/architecture.png)
 
 ## Support
 

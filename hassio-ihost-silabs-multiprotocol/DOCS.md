@@ -5,7 +5,8 @@ This addon is compatible with SONOFF dongles utilizing Silicon Labs chips, such 
 ZBDongle-E (EFR32MG21).Before using this add-on, you must first flash the MultiPAN firmware 
 via [SONOFF Dongle Flasher][sonoff-dongle-flasher]. Another option is flashing firmware 
 via [SONOFF Dongle Flasher Add-on][dongle-flasher-addon].
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=81bc2df9_sonoff_dongle_flasher_for_ihost&repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
+
+[![Open your Home Assistant instance and show the dashboard of an add-on.](https://my.home-assistant.io/badges/supervisor_addon.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=81bc2df9_sonoff_dongle_flasher_for_ihost&repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
 
 ## Installation
 
@@ -15,7 +16,8 @@ Follow these steps to get the add-on installed on your system:
       Go to the Add-on Store → Click the More button (⋮) in the upper-right corner → Select Repositories
       Paste the following URL:
          https://github.com/iHost-Open-Source-Project/hassio-ihost-addon
-      Or, simply click the button below to add it automatically:
+2. Or, simply click the button below to add it automatically:
+
       [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
       
 ![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_1.png)

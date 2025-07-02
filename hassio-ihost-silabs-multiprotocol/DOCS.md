@@ -25,9 +25,10 @@ Follow these steps to get the add-on installed on your system:
       - Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
       - Click "Install" button.  
       - Wait for the installation to complete
-Note: Missing add-on? Enable advanced mode in your user profile page
+      
+      Note: Missing add-on? Enable advanced mode in your user profile page
 
-![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
+      ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
 
 ## How to use
 

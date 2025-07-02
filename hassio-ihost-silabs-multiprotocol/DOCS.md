@@ -1,7 +1,11 @@
 # Home Assistant Add-on: Silicon Labs Multiprotocol
 
-**NOTE**: This addon is compatible with SONOFF dongles utilizing Silicon Labs chips, such as the ZBDongle-E (EFR32MG21). 
-Before using this add-on, you must first flash the MultiPAN firmware via SONOFF Dongle Flasher.
+## Prerequisites
+This addon is compatible with SONOFF dongles utilizing Silicon Labs chips, such as the
+ZBDongle-E (EFR32MG21).Before using this add-on, you must first flash the MultiPAN firmware 
+via [SONOFF Dongle Flasher][sonoff-dongle-flasher]. Another option is flashing firmware 
+via [SONOFF Dongle Flasher Add-on][dongle-flasher-addon].
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_addon/?addon=81bc2df9_sonoff_dongle_flasher_for_ihost&repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
 
 ## Installation
 
@@ -11,13 +15,16 @@ Follow these steps to get the add-on installed on your system:
       Go to the Add-on Store → Click the More button (⋮) in the upper-right corner → Select Repositories
       Paste the following URL:
          https://github.com/iHost-Open-Source-Project/hassio-ihost-addon
-
+      Or, simply click the button below to add it automatically:
+      [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FiHost-Open-Source-Project%2Fhassio-ihost-addon)
+      
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_1.png)
 2. Install Silicon Labs Multiprotocol(Mod) Add-on
       Search for Silicon Labs Multiprotocol(Mod) Add-on in the Add-ons Store.
       Click "Install" button.  
       Wait for the installation to complete
 Note: Missing add-on? Enable advanced mode in your user profile page
-
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_2.png)
 ## How to use
 
 The add-on needs a Silicon Labs based wireless module accessible through a 
@@ -29,6 +36,7 @@ Once the firmware is loaded follow the following steps:
 2. Start the add-on.
 
 **NOTE:** the Web frontend is only accessible when OpenThread is enabled (see below).
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_3.png)
 
 ### Zigbee
 
@@ -49,6 +57,8 @@ To use Zigbee with Z2M configure the Integration as follows:
 
 After completing the configuration,click "SAVE" button. start the Zigbee2MQTT add-on. 
 Wait for about two minutes, then you can click to enter the Web UI Console to add and manage devices.
+
+![Silicon Labs Multiprotocol Add-on Architecture](https://github.com/Mrz-creator/hassio-ihost-addon-z/silabs-multiprotocol/images/description-picture_4.png)
 
 ### OpenThread
 
@@ -107,3 +117,5 @@ In case you've found a bug, please [open an issue on our GitHub][issue].
 [discord]: https://dongle.sonoff.tech
 [reddit]: https://www.reddit.com/r/sonoffdongle
 [issue]: https://github.com/iHost-Open-Source-Project/hassio-ihost-addon/issues
+[sonoff-dongle-flasher]: https://dongle.sonoff.tech/sonoff-dongle-flasher
+[dongle-flasher-addon]: https://github.com/iHost-Open-Source-Project/hassio-ihost-addon/blob/master/hassio-ihost-sonoff-dongle-flasher/DOCS.md

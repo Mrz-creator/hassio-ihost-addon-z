@@ -1,10 +1,5 @@
 # Home Assistant Add-on: Silicon Labs Multiprotocol
 
-## Known Issues
-
-After enabling the **Silicon Labs Multiprotocol Add-on**, Zigbee2MQTT may report an `ASH_ERROR_TIMEOUTS` error on the first launch. 
-Restarting Zigbee2MQTT typically resolves the issue. This has been reported to Silicon Labs and is currently under investigation.
-
 ## Prerequisites
 This addon is compatible with SONOFF dongles utilizing Silicon Labs chips, such as the
 ZBDongle-E (EFR32MG21).Before using this add-on, you must first flash the MultiPAN firmware 

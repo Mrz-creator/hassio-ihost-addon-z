@@ -26,7 +26,7 @@ Follow these steps to get the add-on installed on your system:
       - Click "Install" button.  
       - Wait for the installation to complete
 
-      Note: Missing add-on? Enable advanced mode in your user profile page
+      **Note**: Missing add-on? Enable advanced mode in your user profile page
 
       ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_2.png)
 
@@ -68,6 +68,7 @@ To use Zigbee with Z2M configure the Integration as follows:
 
 ![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_4.png)
 
+![](https://raw.githubusercontent.com/Mrz-creator/hassio-ihost-addon-z/master/hassio-ihost-silabs-multiprotocol/images/description-picture_5.png)
 ### OpenThread
 
 At this point OpenThread support is experimental. This add-on makes your Home
